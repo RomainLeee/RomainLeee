@@ -1,56 +1,121 @@
-<!-- https://github.com/kyechan99/capsule-render -->
+<!-- ─────────────────────────────────────────────────────────────
+     Romain Li — GitHub Profile
+───────────────────────────────────────────────────────────── -->
+
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&&section=header&text=HI%20THERE!&fontSize=90&fontAlign=50&fontAlignY=30&desc=I%20am%20LI%20Ruopan!&descAlign=50&descSize=30&descAlignY=60&animation=twinkling">
-</p>      
- 
-<!-- https://github.com/DenverCoder1/readme-typing-svg -->
-<p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=25&pause=1000&center=true&vCenter=true&random=false&width=600&lines=Welcome+to+my+GitHub+profile+page!;I+am+super+obsessed+with+programming!" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=230&section=header&text=Romain%20Li&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=Causal%20Inference%20%C2%B7%20World%20Models%20%C2%B7%20Healthcare%20AI&descAlignY=58&descSize=19&animation=fadeIn" width="100%" />
 </p>
 
-<h3 align="center">About Me</h3>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am an undergraduate from the City University of Hong Kong. I learned some knowledge of math,
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;programming and statistics in college and applied them to my business practice in venture capital
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;investment as well as my entrepreneurship project. Hope to connect to more passionate developers
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and build our community together!  
-
-<br><br>
-
-<h3 align="center">Past Programming Works</h3>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>1. Entrepreneurship Project</strong>: devote to the <a href="https://github.com/RomainLee/RomainLee/commit/f168168c174bb50f181798fb0218b7330d9217de">front-end development of our plan-to-launch software</a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>2. Research Project</strong>: contribution includes basic data processing works and <a href="https://github.com/RomainLee/RomainLee/commit/dc845ba6b545e9fc51490d6ab43a629e98c8da86">pricing kernel finding</a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>3. Internship Project</strong>: both linear and non-linear <a href="https://github.com/RomainLee/RomainLee/commit/49054e3ba97d94fe87811b2bd490381f55087dfd">multi-factor regression analysis</a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>4. Coursework Project</strong>: Financial Econometrics <a href="https://github.com/RomainLee/RomainLee/blob/f79c54f7a38b25d4aaef192b0bf2a07b0c776492/EF4822.pdf">with ARCH and GARCH Models</a>
-
-<br><br>
-
-<h3 align="center">Financial Modeling Works</h3>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>1. Valuation Model</strong>: finalist in NIBC competition with  <a href="https://github.com/RomainLee/RomainLee/commit/c3efe87ed44dd7aa67f0d20f8341ce6dabced34b#diff-95d1cdbb9fdf73f468ca06ddf7a9abd2240011cd90a23c52b134db91b39fb3d9">DCF, LBO, COMPs and Precedent Transaction</a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>2. Sample Internship Valuation Work</strong>: non-confidential transaction design and DCF valuation <a href="https://github.com/RomainLee/RomainLee/commit/857632d48d7df431c8478be96b07571acd0abee1">report</a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>3. Modeling in Coursework</strong>: transaction designs <a href="https://github.com/RomainLee/RomainLee/blob/main/EF4312%20Merger%20Report.pdf">with DCF, MBO and Others</a>
-
-
-<br><br>
- 
-<h3 align="center">Languages and Tools</h3>
-<p align="center"> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> </p>
-
-<br><br>
-
-<h3 align="center">Connect with Me</h3>
 <p align="center">
-<a href="https://www.linkedin.com/in/romainli/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/liruopan" height="30" width="40" /></a>
-</p>   
-
-<br><br>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1100&color=2C91B7&center=true&vCenter=true&width=760&lines=Building+systems+that+reason+about+counterfactuals.;From+causal+inference+to+clinical+decision+support.;Researcher+%C3%97+builder+at+the+intersection+of+AI+and+health." alt="Typing SVG" />
+</p>
 
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&&section=footer&text=THE%20END!&fontSize=90&fontAlign=50&fontAlignY=70&desc=Hope%20your%20program%20is%20bug-free!&descAlign=50&descSize=30&descAlignY=40&animation=twinkling">
+  <a href="https://www.linkedin.com/in/romainli/"><img src="https://img.shields.io/badge/LinkedIn-Romain%20Li-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Harvard-Medical%20School-A51C30?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Northwestern-Biostatistics-4E2A84?style=for-the-badge" />
+</p>
+
+<br>
+
+## `> whoami`
+
+I'm **Romain Li**, currently pursuing the **MMSc in Global Health Delivery at Harvard Medical School**, with an **MS in Biostatistics from Northwestern University**.
+
+My work sits at the intersection of **causal inference, machine learning, and clinical decision-making**. I am especially interested in how we can move beyond prediction toward models that can reason about **interventions, counterfactuals, and decisions** in real-world healthcare settings.
+
+```text
+observational data
+      ↓
+causal identification
+      ↓
+target trial emulation
+      ↓
+counterfactual outcome models
+      ↓
+world models / agent simulation
+      ↓
+clinical decision support
+```
+
+## 🔬 Current Focus
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Causal Inference
+- Target trial emulation
+- Time-varying treatment strategies
+- IPTW / IPCW / g-methods
+- Longitudinal observational data
+- Transportability & external validity
+
+</td>
+<td width="50%" valign="top">
+
+### Causal World Models
+- Counterfactual reasoning
+- Sequential decision-making
+- Agent-based simulation
+- Representation learning for interventions
+- Resource-aware clinical decisions
+
+</td>
+</tr>
+</table>
+
+## 🧬 Research Direction
+
+**Core question:** *Can we build healthcare AI that does not only predict what will happen, but estimates what would happen under different decisions?*
+
+I am exploring a research stack that connects:
+
+`Target Trial Emulation` → `Causal Foundation` → `Generative Counterfactuals` → `Decision / Agent Layer`
+
+with a particular interest in **oncology** and **resource-limited care settings**.
+
+## 🛠️ Methods & Tools
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=r,python,pytorch,git,github,vscode&theme=dark" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Target%20Trial%20Emulation-111827?style=flat-square" />
+  <img src="https://img.shields.io/badge/Survival%20Analysis-111827?style=flat-square" />
+  <img src="https://img.shields.io/badge/Longitudinal%20Models-111827?style=flat-square" />
+  <img src="https://img.shields.io/badge/Causal%20Inference-111827?style=flat-square" />
+  <img src="https://img.shields.io/badge/Healthcare%20AI-111827?style=flat-square" />
+</p>
+
+## 🧠 What I'm Building Toward
+
+> **Counterfactual World Models for Healthcare**  
+> A decision-support framework that combines causal inference with learned world models to simulate clinically meaningful alternatives under real-world constraints.
+
+The long-term goal is a system that can answer questions like:
+
+> *For this patient, in this setting, with these resources available — what is likely to happen under treatment A versus B, and why?*
+
+## 📊 GitHub
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=RomainLeee&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RomainLeee&layout=compact&hide_border=true&theme=transparent" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RomainLeee&theme=github-compact&hide_border=true&area=true" width="96%" />
+</p>
+
+---
+
+<p align="center">
+  <b>Researcher × Builder</b><br>
+  <sub>Trying to make AI reason about the worlds that did not happen.</sub>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=120&section=footer" width="100%" />
 </p>
