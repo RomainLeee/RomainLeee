@@ -7,7 +7,7 @@
   &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#research"><b>Research</b></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#current-work"><b>Current Work</b></a>
+  <a href="#decision-system"><b>Decision System</b></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#methods"><b>Methods</b></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
@@ -24,12 +24,12 @@ Currently pursuing a **Master of Medical Sciences at Harvard Medical School**. P
 
 > **Research question:** How can real-world evidence help us understand which treatment strategies work, for whom, and under what constraints?
 
-My work is centered on turning observational clinical data into evidence that is useful for treatment decisions — while keeping assumptions, uncertainty, and resource constraints explicit.
+My work is centered on turning observational clinical data into evidence that is useful for treatment decisions — while keeping assumptions, uncertainty, heterogeneity, and resource constraints explicit.
 
 <br>
 
 <p align="center">
-  <img src="assets/causal-stack.svg" width="100%" alt="Research framework from clinical data to treatment decisions" />
+  <img src="assets/causal-stack.svg" width="100%" alt="Clinical decision system from causal estimation to personalized treatment decisions" />
 </p>
 
 ---
@@ -62,13 +62,13 @@ Using real-world clinical data to study treatment strategies, outcomes, and adve
 </td>
 <td width="33%" valign="top">
 
-### Clinical Decisions
+### Individualized Effects
 
-Translating causal evidence across patients, populations, and resource settings to support treatment choices.
+Extending average treatment effects toward patient-level heterogeneity and clinically meaningful subgroups.
 
-`Transportability`  
-`Comparative Strategies`  
-`Global Oncology`
+`Causal ML`  
+`CATE`  
+`Treatment Effect Heterogeneity`
 
 </td>
 </tr>
@@ -76,15 +76,21 @@ Translating causal evidence across patients, populations, and resource settings 
 
 ---
 
-## Current Work
+## Decision System
 
-### Counterfactual reasoning for cancer care
+### From causal evidence to treatment strategy
 
-My current thesis direction is **causal and counterfactual methods for clinical decision support in resource-limited cancer care**.
+My current direction is to connect rigorous causal estimation with a **clinical decision system** for cancer care.
 
-The goal is to move from rigorous causal estimation toward a decision layer that can compare clinically meaningful alternatives across different patient and resource settings.
+The pipeline I am exploring is:
 
-I am also exploring **simulation, agent-based models, and learned world models** as methodological extensions — but the application remains grounded in **healthcare delivery and clinical decision-making**.
+**Target Trial Emulation → Causal Estimation → Causal ML / CATE → Markov & State-Transition Models → Decision Support**
+
+The first layer estimates population-level causal effects from longitudinal real-world data. **Causal machine learning** then helps characterize treatment-effect heterogeneity and identify how expected effects may differ across patient profiles.
+
+For the decision layer, I am exploring **Markov and state-transition models** to represent longitudinal disease trajectories, alongside **agent-based simulation** for settings where patient behavior, care delivery, or resource constraints require more flexible interactions.
+
+The goal is not simply to predict outcomes, but to compare plausible treatment paths over time and support **resource-aware, clinically interpretable decisions**.
 
 ---
 
@@ -103,9 +109,26 @@ I am also exploring **simulation, agent-based models, and learned world models**
 </td>
 <td width="50%" valign="top">
 
-**Data & implementation**
+**Decision & modeling methods**
 
-`EHR / Real-World Data` · `Oncology` · `Global Health`  
+`Causal ML` · `CATE` · `Treatment Effect Heterogeneity`  
+`Markov Models` · `State-Transition Models` · `Agent-Based Simulation`  
+`Counterfactual Modeling` · `Clinical Decision Support`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Data**
+
+`EHR / Real-World Data` · `Oncology` · `Longitudinal Clinical Data`
+
+</td>
+<td width="50%" valign="top">
+
+**Implementation**
+
 `R` · `Python` · `SAS` · `Git`
 
 </td>
@@ -117,9 +140,9 @@ I am also exploring **simulation, agent-based models, and learned world models**
 ## Questions I care about
 
 - How can observational data estimate clinically meaningful treatment effects?
-- How should dynamic treatment strategies be compared over time?
-- How can evidence travel across populations and resource settings?
-- How can counterfactual models support decisions without hiding assumptions and uncertainty?
+- How can causal ML move from average effects toward individualized treatment-effect estimates?
+- How should Markov, state-transition, and agent-based models represent treatment pathways over time?
+- How can a decision system combine causal evidence, patient heterogeneity, and resource constraints without hiding uncertainty?
 
 <br>
 
