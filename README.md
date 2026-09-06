@@ -18,7 +18,7 @@
 
 I'm **Romain Li**, a researcher working at the intersection of **causal inference, machine learning, and clinical decision-making**.
 
-Currently at **Harvard Medical School** in the MMSc in Global Health Delivery program. I previously completed an **MS in Biostatistics at Northwestern University**, where my work focused on causal inference with longitudinal real-world clinical data.
+Currently at **Harvard Medical School** in the MMSc in Global Health Delivery program. I previously trained at **Northwestern Medicine**, where my work focused on causal inference with longitudinal real-world clinical data.
 
 My central question is simple:
 
