@@ -1,78 +1,84 @@
-<svg width="1200" height="460" viewBox="0 0 1200 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="500" viewBox="0 0 1200 500" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="460" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#090B10"/>
-      <stop offset="0.52" stop-color="#0C1119"/>
-      <stop offset="1" stop-color="#0A0D14"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080A0F"/>
+      <stop offset="0.5" stop-color="#0C1118"/>
+      <stop offset="1" stop-color="#090C12"/>
     </linearGradient>
-    <radialGradient id="cyanGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(865 62) rotate(127) scale(430 330)">
-      <stop stop-color="#5BD7FF" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#5BD7FF" stop-opacity="0"/>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(940 92) rotate(132) scale(410 320)">
+      <stop stop-color="#6ED9FF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#6ED9FF" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="violetGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1140 370) rotate(-151) scale(370 260)">
-      <stop stop-color="#8B7CFF" stop-opacity="0.14"/>
-      <stop offset="1" stop-color="#8B7CFF" stop-opacity="0"/>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1035 438) rotate(-145) scale(360 250)">
+      <stop stop-color="#8D78FF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#8D78FF" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="accent" x1="735" y1="110" x2="1090" y2="345" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#6DE4FF"/>
-      <stop offset="1" stop-color="#9B88FF"/>
+    <linearGradient id="track" x1="734" y1="0" x2="1082" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#69DDF8"/>
+      <stop offset="1" stop-color="#8D83FF"/>
     </linearGradient>
-    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0H0V34" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#FFFFFF" stroke-opacity="0.028" stroke-width="1"/>
     </pattern>
   </defs>
 
-  <rect width="1200" height="460" rx="30" fill="url(#bg)"/>
-  <rect width="1200" height="460" rx="30" fill="url(#grid)"/>
-  <rect width="1200" height="460" rx="30" fill="url(#cyanGlow)"/>
-  <rect width="1200" height="460" rx="30" fill="url(#violetGlow)"/>
-  <rect x="1" y="1" width="1198" height="458" rx="29" stroke="#FFFFFF" stroke-opacity="0.07"/>
+  <rect width="1200" height="500" rx="32" fill="url(#bg)"/>
+  <rect width="1200" height="500" rx="32" fill="url(#grid)"/>
+  <rect width="1200" height="500" rx="32" fill="url(#glowA)">
+    <animate attributeName="opacity" values="0.65;1;0.65" dur="7s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="1200" height="500" rx="32" fill="url(#glowB)">
+    <animate attributeName="opacity" values="1;0.55;1" dur="9s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1" y="1" width="1198" height="498" rx="31" stroke="#FFFFFF" stroke-opacity="0.07"/>
 
   <g font-family="Inter,Segoe UI,Arial,sans-serif">
-    <text x="72" y="74" fill="#778391" font-size="14" font-weight="600" letter-spacing="4">ROMAIN LI  /  HEALTHCARE RESEARCHER</text>
+    <text x="72" y="74" fill="#778390" font-size="14" font-weight="600" letter-spacing="4">ROMAIN LI  /  HEALTHCARE RESEARCH</text>
 
-    <text x="70" y="175" fill="#F5F7FA" font-size="62" font-weight="700" letter-spacing="-2">Healthcare research,</text>
-    <text x="70" y="239" fill="#F5F7FA" font-size="62" font-weight="700" letter-spacing="-2">through causal inference.</text>
+    <text x="70" y="154" fill="#F7F9FB" font-size="34" font-weight="650" letter-spacing="-0.5">Romain Li</text>
+    <text x="70" y="231" fill="#F7F9FB" font-size="60" font-weight="720" letter-spacing="-2">Causal evidence for</text>
+    <text x="70" y="294" fill="#F7F9FB" font-size="60" font-weight="720" letter-spacing="-2">better cancer care.</text>
 
-    <text x="73" y="294" fill="#9EA9B5" font-size="21">Oncology · Real-world evidence · Clinical decision-making</text>
-    <text x="73" y="329" fill="#667381" font-size="16" font-family="JetBrains Mono,Consolas,monospace">estimating treatment effects → understanding alternatives → improving decisions</text>
+    <text x="73" y="344" fill="#9DA8B3" font-size="20">Causal inference · Real-world evidence · Clinical decision-making</text>
+    <text x="73" y="380" fill="#64717E" font-size="15" font-family="JetBrains Mono,Consolas,monospace">from longitudinal clinical data to treatment decisions</text>
 
-    <rect x="72" y="366" width="228" height="38" rx="19" fill="#A51C30" fill-opacity="0.12" stroke="#CF596A" stroke-opacity="0.42"/>
-    <circle cx="94" cy="385" r="4" fill="#D86172"/>
-    <text x="108" y="390" fill="#E9C0C7" font-size="14" font-family="JetBrains Mono,Consolas,monospace">Harvard Medical School</text>
+    <rect x="72" y="416" width="228" height="38" rx="19" fill="#A51C30" fill-opacity="0.12" stroke="#CF596A" stroke-opacity="0.38"/>
+    <circle cx="94" cy="435" r="4" fill="#D86172"/>
+    <text x="108" y="440" fill="#E6BDC4" font-size="14" font-family="JetBrains Mono,Consolas,monospace">Harvard Medical School</text>
 
-    <rect x="314" y="366" width="222" height="38" rx="19" fill="#4E2A84" fill-opacity="0.16" stroke="#8C6BC1" stroke-opacity="0.45"/>
-    <circle cx="336" cy="385" r="4" fill="#9A7BCB"/>
-    <text x="350" y="390" fill="#D6C6EC" font-size="14" font-family="JetBrains Mono,Consolas,monospace">Northwestern Medicine</text>
+    <rect x="314" y="416" width="222" height="38" rx="19" fill="#4E2A84" fill-opacity="0.15" stroke="#8C6BC1" stroke-opacity="0.4"/>
+    <circle cx="336" cy="435" r="4" fill="#9A7BCB"/>
+    <text x="350" y="440" fill="#D4C4EA" font-size="14" font-family="JetBrains Mono,Consolas,monospace">Northwestern Medicine</text>
   </g>
 
-  <g transform="translate(690 66)">
-    <rect width="430" height="328" rx="24" fill="#FFFFFF" fill-opacity="0.025" stroke="#FFFFFF" stroke-opacity="0.08"/>
-    <text x="28" y="42" fill="#7C8896" font-size="12" font-family="JetBrains Mono,Consolas,monospace" letter-spacing="3">CLINICAL RESEARCH SYSTEM</text>
-    <text x="370" y="42" fill="#596573" font-size="12" font-family="JetBrains Mono,Consolas,monospace">01—04</text>
+  <g transform="translate(690 72)">
+    <rect width="430" height="340" rx="24" fill="#FFFFFF" fill-opacity="0.025" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <circle cx="31" cy="33" r="4" fill="#66DBF7">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="3;5;3" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="46" y="38" fill="#7C8895" font-size="12" font-family="JetBrains Mono,Consolas,monospace" letter-spacing="3">RESEARCH SIGNAL</text>
+    <text x="371" y="38" fill="#535E69" font-size="11" font-family="JetBrains Mono,Consolas,monospace">ACTIVE</text>
 
-    <path d="M71 91V259" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.75"/>
+    <path d="M54 95C126 56 168 134 233 100C302 65 335 119 379 90" stroke="url(#track)" stroke-width="1.5" stroke-opacity="0.24"/>
+    <path d="M54 95C126 56 168 134 233 100C302 65 335 119 379 90" stroke="url(#track)" stroke-width="2" stroke-linecap="round" stroke-dasharray="70 360">
+      <animate attributeName="stroke-dashoffset" values="430;0" dur="6s" repeatCount="indefinite"/>
+    </path>
+    <circle r="5" fill="#79E4FF">
+      <animateMotion dur="6s" repeatCount="indefinite" path="M54 95C126 56 168 134 233 100C302 65 335 119 379 90"/>
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
 
-    <circle cx="71" cy="93" r="9" fill="#101A22" stroke="#6DE4FF" stroke-width="2"/>
-    <circle cx="71" cy="149" r="9" fill="#111924" stroke="#75CBFF" stroke-width="2"/>
-    <circle cx="71" cy="205" r="9" fill="#151727" stroke="#879EFF" stroke-width="2"/>
-    <circle cx="71" cy="261" r="9" fill="#181629" stroke="#9B88FF" stroke-width="2"/>
+    <rect x="28" y="137" width="374" height="56" rx="14" fill="#FFFFFF" fill-opacity="0.025" stroke="#FFFFFF" stroke-opacity="0.055"/>
+    <text x="48" y="161" fill="#596672" font-size="11" font-family="JetBrains Mono,Consolas,monospace">FOCUS 01</text>
+    <text x="48" y="181" fill="#E9EEF2" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="600">Target trial emulation</text>
 
-    <g font-family="Inter,Segoe UI,Arial,sans-serif">
-      <text x="104" y="90" fill="#ECF4F8" font-size="17" font-weight="650">Observe</text>
-      <text x="104" y="109" fill="#687785" font-size="13">longitudinal clinical data</text>
+    <rect x="28" y="205" width="374" height="56" rx="14" fill="#FFFFFF" fill-opacity="0.025" stroke="#FFFFFF" stroke-opacity="0.055"/>
+    <text x="48" y="229" fill="#596672" font-size="11" font-family="JetBrains Mono,Consolas,monospace">FOCUS 02</text>
+    <text x="48" y="249" fill="#E9EEF2" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="600">Longitudinal real-world evidence</text>
 
-      <text x="104" y="146" fill="#ECF4F8" font-size="17" font-weight="650">Estimate</text>
-      <text x="104" y="165" fill="#687785" font-size="13">causal treatment effects</text>
-
-      <text x="104" y="202" fill="#ECF4F8" font-size="17" font-weight="650">Compare</text>
-      <text x="104" y="221" fill="#687785" font-size="13">clinically meaningful strategies</text>
-
-      <text x="104" y="258" fill="#ECF4F8" font-size="17" font-weight="650">Decide</text>
-      <text x="104" y="277" fill="#687785" font-size="13">evidence for better care</text>
-    </g>
-
-    <rect x="28" y="296" width="374" height="1" fill="#FFFFFF" fill-opacity="0.07"/>
-    <text x="28" y="316" fill="#525E6B" font-size="11" font-family="JetBrains Mono,Consolas,monospace">ONCOLOGY / GLOBAL HEALTH / REAL-WORLD EVIDENCE</text>
+    <rect x="28" y="273" width="374" height="56" rx="14" fill="#FFFFFF" fill-opacity="0.025" stroke="#FFFFFF" stroke-opacity="0.055"/>
+    <text x="48" y="297" fill="#596672" font-size="11" font-family="JetBrains Mono,Consolas,monospace">FOCUS 03</text>
+    <text x="48" y="317" fill="#E9EEF2" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="600">Resource-aware treatment decisions</text>
   </g>
 </svg>
