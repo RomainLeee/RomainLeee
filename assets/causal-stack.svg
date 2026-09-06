@@ -1,45 +1,56 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg2" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0A1421"/>
-      <stop offset="1" stop-color="#0D1A2B"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0E13"/>
+      <stop offset="1" stop-color="#0E121A"/>
     </linearGradient>
-    <linearGradient id="accent" x1="100" y1="0" x2="1100" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#3CD8FF"/>
-      <stop offset="0.5" stop-color="#6EAEFF"/>
-      <stop offset="1" stop-color="#9E7BFF"/>
+    <linearGradient id="flow" x1="118" y1="0" x2="1082" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#62DDF8"/>
+      <stop offset="0.52" stop-color="#79B7FF"/>
+      <stop offset="1" stop-color="#9987FF"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="300" rx="24" fill="url(#bg2)"/>
-  <text x="60" y="62" fill="#8FDFFF" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700" letter-spacing="3">RESEARCH STACK</text>
-  <text x="60" y="96" fill="#8195A5" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">From observational evidence to decision support</text>
 
-  <path d="M170 177H1030" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+  <rect width="1200" height="330" rx="28" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="328" rx="27" stroke="#FFFFFF" stroke-opacity="0.07"/>
+
+  <text x="58" y="55" fill="#788491" font-size="13" font-family="JetBrains Mono,Consolas,monospace" font-weight="600" letter-spacing="3">RESEARCH OPERATING SYSTEM</text>
+  <text x="58" y="84" fill="#C8D0D8" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif">A rigorous path from evidence to action.</text>
+
+  <path d="M104 135H1096" stroke="url(#flow)" stroke-width="2" stroke-opacity="0.45"/>
 
   <g font-family="Inter,Segoe UI,Arial,sans-serif">
-    <circle cx="170" cy="177" r="28" fill="#102A39" stroke="#41D8FF" stroke-width="2"/>
-    <text x="170" y="183" text-anchor="middle" fill="#C8F5FF" font-size="17" font-weight="700">01</text>
-    <text x="170" y="231" text-anchor="middle" fill="#E9F6FA" font-size="17" font-weight="650">Target Trial</text>
-    <text x="170" y="253" text-anchor="middle" fill="#8298A7" font-size="14">emulation</text>
+    <rect x="58" y="112" width="248" height="164" rx="20" fill="#FFFFFF" fill-opacity="0.025" stroke="#FFFFFF" stroke-opacity="0.075"/>
+    <text x="82" y="144" fill="#6DDBF4" font-size="12" font-family="JetBrains Mono,Consolas,monospace" letter-spacing="2">01 / IDENTIFY</text>
+    <text x="82" y="181" fill="#F1F4F7" font-size="22" font-weight="650">Causal structure</text>
+    <text x="82" y="211" fill="#84919E" font-size="14">Target trial emulation</text>
+    <text x="82" y="234" fill="#84919E" font-size="14">g-methods · assumptions</text>
+    <text x="82" y="257" fill="#5E6975" font-size="12" font-family="JetBrains Mono,Consolas,monospace">WHAT CAN BE IDENTIFIED?</text>
 
-    <circle cx="385" cy="177" r="28" fill="#12283B" stroke="#5EC6FF" stroke-width="2"/>
-    <text x="385" y="183" text-anchor="middle" fill="#D5F2FF" font-size="17" font-weight="700">02</text>
-    <text x="385" y="231" text-anchor="middle" fill="#E9F6FA" font-size="17" font-weight="650">Causal Foundation</text>
-    <text x="385" y="253" text-anchor="middle" fill="#8298A7" font-size="14">identification + estimation</text>
+    <rect x="337" y="112" width="248" height="164" rx="20" fill="#FFFFFF" fill-opacity="0.025" stroke="#FFFFFF" stroke-opacity="0.075"/>
+    <text x="361" y="144" fill="#74C7FB" font-size="12" font-family="JetBrains Mono,Consolas,monospace" letter-spacing="2">02 / ESTIMATE</text>
+    <text x="361" y="181" fill="#F1F4F7" font-size="22" font-weight="650">Treatment effects</text>
+    <text x="361" y="211" fill="#84919E" font-size="14">IPTW · IPCW · survival</text>
+    <text x="361" y="234" fill="#84919E" font-size="14">time-varying strategies</text>
+    <text x="361" y="257" fill="#5E6975" font-size="12" font-family="JetBrains Mono,Consolas,monospace">WHAT WOULD HAPPEN?</text>
 
-    <circle cx="600" cy="177" r="28" fill="#15263E" stroke="#72B2FF" stroke-width="2"/>
-    <text x="600" y="183" text-anchor="middle" fill="#DCEBFF" font-size="17" font-weight="700">03</text>
-    <text x="600" y="231" text-anchor="middle" fill="#E9F6FA" font-size="17" font-weight="650">Counterfactual Model</text>
-    <text x="600" y="253" text-anchor="middle" fill="#8298A7" font-size="14">outcome generation</text>
+    <rect x="616" y="112" width="248" height="164" rx="20" fill="#FFFFFF" fill-opacity="0.025" stroke="#FFFFFF" stroke-opacity="0.075"/>
+    <text x="640" y="144" fill="#839FFF" font-size="12" font-family="JetBrains Mono,Consolas,monospace" letter-spacing="2">03 / SIMULATE</text>
+    <text x="640" y="181" fill="#F1F4F7" font-size="22" font-weight="650">Counterfactual worlds</text>
+    <text x="640" y="211" fill="#84919E" font-size="14">World models · agents</text>
+    <text x="640" y="234" fill="#84919E" font-size="14">patient trajectories</text>
+    <text x="640" y="257" fill="#5E6975" font-size="12" font-family="JetBrains Mono,Consolas,monospace">WHAT COULD UNFOLD?</text>
 
-    <circle cx="815" cy="177" r="28" fill="#192441" stroke="#898EFF" stroke-width="2"/>
-    <text x="815" y="183" text-anchor="middle" fill="#E8E0FF" font-size="17" font-weight="700">04</text>
-    <text x="815" y="231" text-anchor="middle" fill="#E9F6FA" font-size="17" font-weight="650">World / Agent Layer</text>
-    <text x="815" y="253" text-anchor="middle" fill="#8298A7" font-size="14">simulation</text>
-
-    <circle cx="1030" cy="177" r="28" fill="#1C2244" stroke="#9B79FF" stroke-width="2"/>
-    <text x="1030" y="183" text-anchor="middle" fill="#EEE5FF" font-size="17" font-weight="700">05</text>
-    <text x="1030" y="231" text-anchor="middle" fill="#E9F6FA" font-size="17" font-weight="650">Decision Support</text>
-    <text x="1030" y="253" text-anchor="middle" fill="#8298A7" font-size="14">clinical action</text>
+    <rect x="895" y="112" width="248" height="164" rx="20" fill="#FFFFFF" fill-opacity="0.025" stroke="#FFFFFF" stroke-opacity="0.075"/>
+    <text x="919" y="144" fill="#9A86FF" font-size="12" font-family="JetBrains Mono,Consolas,monospace" letter-spacing="2">04 / DECIDE</text>
+    <text x="919" y="181" fill="#F1F4F7" font-size="22" font-weight="650">Clinical action</text>
+    <text x="919" y="211" fill="#84919E" font-size="14">Decision support</text>
+    <text x="919" y="234" fill="#84919E" font-size="14">resource constraints</text>
+    <text x="919" y="257" fill="#5E6975" font-size="12" font-family="JetBrains Mono,Consolas,monospace">WHAT SHOULD WE DO?</text>
   </g>
+
+  <circle cx="182" cy="135" r="4" fill="#62DDF8"/>
+  <circle cx="461" cy="135" r="4" fill="#74C7FB"/>
+  <circle cx="740" cy="135" r="4" fill="#839FFF"/>
+  <circle cx="1019" cy="135" r="4" fill="#9A86FF"/>
 </svg>
