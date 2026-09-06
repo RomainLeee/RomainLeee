@@ -1,35 +1,35 @@
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Romain Li — Healthcare Research, Causal Inference, Clinical Decision-Making" />
+  <img src="assets/hero.svg" width="100%" alt="Romain Li — Healthcare Research, Causal Inference, Oncology" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/romainli/"><b>LinkedIn</b></a>
-  &nbsp;·&nbsp;
+  <a href="#profile"><b>Profile</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#research"><b>Research</b></a>
-  &nbsp;·&nbsp;
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#current-work"><b>Current Work</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#methods"><b>Methods</b></a>
-  &nbsp;·&nbsp;
-  <a href="#current-direction"><b>Current Direction</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/romainli/"><b>LinkedIn ↗</b></a>
 </p>
 
 ---
 
-## About
+## Profile
 
-I'm **Romain Li**, a healthcare researcher interested in how rigorous quantitative methods can improve **clinical decisions and cancer care**.
+I’m **Romain Li**, a healthcare researcher focused on **causal inference, oncology, real-world evidence, and clinical decision-making**.
 
-I am currently at **Harvard Medical School** in the MMSc in Global Health Delivery program. I previously trained at **Northwestern Medicine**, working with longitudinal real-world clinical data and causal inference methods.
+Currently at **Harvard Medical School** in the MMSc in Global Health Delivery program. Previously at **Northwestern Medicine**, working with longitudinal real-world clinical data and causal methods.
 
-My work centers on one question:
+> **Research question:** How can real-world evidence help us understand which treatment strategies work, for whom, and under what constraints?
 
-> **How can we use real-world evidence to understand which treatment strategies work, for whom, and under what constraints?**
-
-My primary interests are **causal inference, oncology, real-world evidence, and clinical decision-making**, with a growing interest in counterfactual simulation as a tool for extending causal evidence into decision support.
+My work is centered on turning observational clinical data into evidence that is useful for treatment decisions — while keeping assumptions, uncertainty, and resource constraints explicit.
 
 <br>
 
 <p align="center">
-  <img src="assets/causal-stack.svg" width="100%" alt="Healthcare research operating system" />
+  <img src="assets/causal-stack.svg" width="100%" alt="Research framework from clinical data to treatment decisions" />
 </p>
 
 ---
@@ -38,36 +38,37 @@ My primary interests are **causal inference, oncology, real-world evidence, and 
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### Real-World Oncology
+### Causal Inference
 
-Using observational clinical data to emulate treatment strategies and estimate causal effects in oncology.
+Estimating treatment effects from longitudinal observational data with designs that mirror the clinical question as closely as possible.
 
-**Current methods**
-
-- Target trial emulation
-- Cloning + artificial censoring
-- IPTW / IPCW
-- Pooled logistic models
-- Survival analysis
-- Time-varying treatment strategies
+`Target Trial Emulation`  
+`g-methods`  
+`IPTW / IPCW`
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### Clinical Decision-Making
+### Oncology & RWE
 
-Studying how causal evidence can support treatment decisions when patient trajectories, treatment options, and available resources differ across settings.
+Using real-world clinical data to study treatment strategies, outcomes, and adverse events in cancer care.
 
-**Current interests**
+`EHR Data`  
+`Survival Analysis`  
+`Longitudinal Cohorts`
 
-- Comparative treatment strategies
-- Counterfactual reasoning
-- Resource-constrained care
-- Transportability
-- Decision support
-- Global oncology
+</td>
+<td width="33%" valign="top">
+
+### Clinical Decisions
+
+Translating causal evidence across patients, populations, and resource settings to support treatment choices.
+
+`Transportability`  
+`Comparative Strategies`  
+`Global Oncology`
 
 </td>
 </tr>
@@ -75,51 +76,57 @@ Studying how causal evidence can support treatment decisions when patient trajec
 
 ---
 
-## Current Direction
+## Current Work
 
-### Counterfactual Reasoning for Cancer Care
+### Counterfactual reasoning for cancer care
 
-My current thesis direction focuses on **causal and counterfactual methods for clinical decision support in resource-limited cancer care**.
+My current thesis direction is **causal and counterfactual methods for clinical decision support in resource-limited cancer care**.
 
-The aim is to build from rigorous causal estimation toward models that can compare clinically meaningful alternatives while keeping **confounding, assumptions, uncertainty, and resource constraints** explicit.
+The goal is to move from rigorous causal estimation toward a decision layer that can compare clinically meaningful alternatives across different patient and resource settings.
 
-World models and agent-based simulation are part of this methodological exploration, but the application stays grounded in **healthcare delivery and clinical decision-making**.
+I am also exploring **simulation, agent-based models, and learned world models** as methodological extensions — but the application remains grounded in **healthcare delivery and clinical decision-making**.
 
 ---
 
 ## Methods
 
-```text
-CAUSAL INFERENCE      Target Trial Emulation · g-methods · IPTW · IPCW
-STATISTICS            Survival Analysis · Longitudinal Models · Bootstrap
-MODELING              Pooled Logistic Models · Counterfactual Estimation
-PROGRAMMING           R · Python · SAS · Git
-DATA                   EHR · Real-World Data · Longitudinal Clinical Data
-DOMAINS                Oncology · Global Health · Clinical Epidemiology
-```
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Causal & statistical methods**
+
+`Target Trial Emulation` · `Cloning` · `IPTW` · `IPCW`  
+`Pooled Logistic Models` · `Survival Analysis`  
+`Longitudinal Models` · `Bootstrap`
+
+</td>
+<td width="50%" valign="top">
+
+**Data & implementation**
+
+`EHR / Real-World Data` · `Oncology` · `Global Health`  
+`R` · `Python` · `SAS` · `Git`
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Questions I Care About
+## Questions I care about
 
-- How can observational data be used to estimate clinically meaningful treatment effects?
-- How should treatment strategies be compared when care evolves over time?
-- How can evidence be transported across populations and resource settings?
-- How can counterfactual models support decisions without obscuring assumptions and uncertainty?
-
----
-
-<p align="center">
-  <code>Causal Inference</code>&nbsp;&nbsp;
-  <code>Oncology</code>&nbsp;&nbsp;
-  <code>Real-World Evidence</code>&nbsp;&nbsp;
-  <code>Clinical Decision-Making</code>&nbsp;&nbsp;
-  <code>Global Health</code>
-</p>
+- How can observational data estimate clinically meaningful treatment effects?
+- How should dynamic treatment strategies be compared over time?
+- How can evidence travel across populations and resource settings?
+- How can counterfactual models support decisions without hiding assumptions and uncertainty?
 
 <br>
 
 <p align="center">
-  <b>Healthcare research grounded in causal evidence.</b><br>
-  <sub>From real-world data to better treatment decisions.</sub>
+  <sub>CAUSAL INFERENCE &nbsp;·&nbsp; ONCOLOGY &nbsp;·&nbsp; REAL-WORLD EVIDENCE &nbsp;·&nbsp; CLINICAL DECISION-MAKING</sub>
+</p>
+
+<p align="center">
+  <b>From real-world data to better treatment decisions.</b>
 </p>
