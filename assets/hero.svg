@@ -51,6 +51,6 @@
   <text x="78" y="311" fill="#8DA8BA" font-size="18" font-family="JetBrains Mono,Consolas,monospace">reasoning about interventions, counterfactuals, and decisions</text>
   <rect x="78" y="340" width="232" height="34" rx="17" fill="#0F3044" stroke="#2A7391"/>
   <text x="96" y="362" fill="#BCEFFF" font-size="15" font-family="JetBrains Mono,Consolas,monospace">Harvard Medical School</text>
-  <rect x="324" y="340" width="220" height="34" rx="17" fill="#181C3B" stroke="#4C4B8F"/>
-  <text x="343" y="362" fill="#D7D2FF" font-size="15" font-family="JetBrains Mono,Consolas,monospace">Northwestern Biostat</text>
+  <rect x="324" y="340" width="214" height="34" rx="17" fill="#181C3B" stroke="#4C4B8F"/>
+  <text x="346" y="362" fill="#D7D2FF" font-size="15" font-family="JetBrains Mono,Consolas,monospace">Northwestern Medicine</text>
 </svg>
