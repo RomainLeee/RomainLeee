@@ -20,7 +20,7 @@
 
 I’m **Romain Li**, a healthcare researcher focused on **causal inference, oncology, real-world evidence, and clinical decision-making**.
 
-Currently at **Harvard Medical School** in the MMSc in Global Health Delivery program. Previously at **Northwestern Medicine**, working with longitudinal real-world clinical data and causal methods.
+Currently pursuing a **Master of Medical Sciences at Harvard Medical School**. Previously at **Northwestern Medicine**, working with longitudinal real-world clinical data and causal methods.
 
 > **Research question:** How can real-world evidence help us understand which treatment strategies work, for whom, and under what constraints?
 
