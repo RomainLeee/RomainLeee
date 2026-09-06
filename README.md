@@ -1,121 +1,132 @@
-<!-- ─────────────────────────────────────────────────────────────
-     Romain Li — GitHub Profile
-───────────────────────────────────────────────────────────── -->
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=230&section=header&text=Romain%20Li&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=Causal%20Inference%20%C2%B7%20World%20Models%20%C2%B7%20Healthcare%20AI&descAlignY=58&descSize=19&animation=fadeIn" width="100%" />
+  <img src="assets/hero.svg" width="100%" alt="Romain Li — Causal Inference, World Models, Healthcare AI" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1100&color=2C91B7&center=true&vCenter=true&width=760&lines=Building+systems+that+reason+about+counterfactuals.;From+causal+inference+to+clinical+decision+support.;Researcher+%C3%97+builder+at+the+intersection+of+AI+and+health." alt="Typing SVG" />
+  <a href="https://www.linkedin.com/in/romainli/"><b>LinkedIn</b></a>
+  &nbsp;·&nbsp;
+  <a href="#research"><b>Research</b></a>
+  &nbsp;·&nbsp;
+  <a href="#methods--tools"><b>Methods</b></a>
+  &nbsp;·&nbsp;
+  <a href="#currently-exploring"><b>Now</b></a>
 </p>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/romainli/"><img src="https://img.shields.io/badge/LinkedIn-Romain%20Li-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Harvard-Medical%20School-A51C30?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Northwestern-Biostatistics-4E2A84?style=for-the-badge" />
-</p>
+---
+
+## About
+
+I'm **Romain Li**, a researcher working at the intersection of **causal inference, machine learning, and clinical decision-making**.
+
+Currently at **Harvard Medical School** in the MMSc in Global Health Delivery program. I previously completed an **MS in Biostatistics at Northwestern University**, where my work focused on causal inference with longitudinal real-world clinical data.
+
+My central question is simple:
+
+> **Can healthcare AI move beyond predicting what will happen — and reason about what would happen under different decisions?**
+
+I am especially interested in building models that connect **causal identification**, **counterfactual estimation**, **world modeling**, and **decision support**.
 
 <br>
 
-## `> whoami`
+<p align="center">
+  <img src="assets/causal-stack.svg" width="100%" alt="Causal research stack" />
+</p>
 
-I'm **Romain Li**, currently pursuing the **MMSc in Global Health Delivery at Harvard Medical School**, with an **MS in Biostatistics from Northwestern University**.
+---
 
-My work sits at the intersection of **causal inference, machine learning, and clinical decision-making**. I am especially interested in how we can move beyond prediction toward models that can reason about **interventions, counterfactuals, and decisions** in real-world healthcare settings.
-
-```text
-observational data
-      ↓
-causal identification
-      ↓
-target trial emulation
-      ↓
-counterfactual outcome models
-      ↓
-world models / agent simulation
-      ↓
-clinical decision support
-```
-
-## 🔬 Current Focus
+## Research
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Causal Inference
-- Target trial emulation
-- Time-varying treatment strategies
-- IPTW / IPCW / g-methods
-- Longitudinal observational data
-- Transportability & external validity
+### 🧠 Counterfactual World Models
+
+Exploring how causal inference and learned world models can be combined for **clinical decision support**, especially when treatments, resources, and patient trajectories evolve over time.
+
+**Current direction**
+
+- Counterfactual reasoning
+- Sequential decision-making
+- Agent-based simulation
+- Causal representation learning
+- Resource-constrained healthcare
 
 </td>
 <td width="50%" valign="top">
 
-### Causal World Models
-- Counterfactual reasoning
-- Sequential decision-making
-- Agent-based simulation
-- Representation learning for interventions
-- Resource-aware clinical decisions
+### 🧬 Real-World Oncology
+
+Using observational clinical data to emulate treatment strategies and estimate causal effects in oncology.
+
+**Methods I work with**
+
+- Target trial emulation
+- Cloning + artificial censoring
+- IPTW / IPCW
+- Pooled logistic models
+- Survival analysis
+- Time-varying treatment strategies
 
 </td>
 </tr>
 </table>
 
-## 🧬 Research Direction
+### Current thesis direction
 
-**Core question:** *Can we build healthcare AI that does not only predict what will happen, but estimates what would happen under different decisions?*
+**Counterfactual Reasoning and Causal World Models for Clinical Decision Support in Resource-Limited Cancer Care**
 
-I am exploring a research stack that connects:
-
-`Target Trial Emulation` → `Causal Foundation` → `Generative Counterfactuals` → `Decision / Agent Layer`
-
-with a particular interest in **oncology** and **resource-limited care settings**.
-
-## 🛠️ Methods & Tools
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=r,python,pytorch,git,github,vscode&theme=dark" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Target%20Trial%20Emulation-111827?style=flat-square" />
-  <img src="https://img.shields.io/badge/Survival%20Analysis-111827?style=flat-square" />
-  <img src="https://img.shields.io/badge/Longitudinal%20Models-111827?style=flat-square" />
-  <img src="https://img.shields.io/badge/Causal%20Inference-111827?style=flat-square" />
-  <img src="https://img.shields.io/badge/Healthcare%20AI-111827?style=flat-square" />
-</p>
-
-## 🧠 What I'm Building Toward
-
-> **Counterfactual World Models for Healthcare**  
-> A decision-support framework that combines causal inference with learned world models to simulate clinically meaningful alternatives under real-world constraints.
-
-The long-term goal is a system that can answer questions like:
-
-> *For this patient, in this setting, with these resources available — what is likely to happen under treatment A versus B, and why?*
-
-## 📊 GitHub
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=RomainLeee&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RomainLeee&layout=compact&hide_border=true&theme=transparent" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RomainLeee&theme=github-compact&hide_border=true&area=true" width="96%" />
-</p>
+The goal is to connect rigorous causal estimation with a simulation / decision layer that can compare clinically meaningful treatment alternatives under real-world constraints.
 
 ---
 
-<p align="center">
-  <b>Researcher × Builder</b><br>
-  <sub>Trying to make AI reason about the worlds that did not happen.</sub>
-</p>
+## Methods & Tools
+
+```text
+CAUSAL INFERENCE      Target Trial Emulation · g-methods · IPTW · IPCW
+STATISTICS            Survival Analysis · Longitudinal Models · Bootstrap
+MODELING              Pooled Logistic Models · Counterfactual Prediction
+AI                    PyTorch · Representation Learning · Agent Simulation
+PROGRAMMING           R · Python · SAS · Git
+DOMAINS                Oncology · EHR / Real-World Data · Global Health
+```
+
+---
+
+## Currently Exploring
+
+```mermaid
+graph LR
+    A[Observational Data] --> B[Causal Identification]
+    B --> C[Counterfactual Estimation]
+    C --> D[World Model]
+    D --> E[Agent / Decision Layer]
+    E --> F[Clinical Decision Support]
+```
+
+A few questions I keep coming back to:
+
+- How should **causal structure** be preserved inside learned world models?
+- Can **target trial emulation** provide the empirical foundation for counterfactual simulators?
+- When should we use a **Markov model**, an **agent-based model**, or a learned generative model?
+- How can AI support decisions without hiding **confounding, assumptions, and uncertainty**?
+
+---
+
+## Selected Interests
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=120&section=footer" width="100%" />
+  <code>Causal Inference</code>&nbsp;&nbsp;
+  <code>Target Trial Emulation</code>&nbsp;&nbsp;
+  <code>World Models</code>&nbsp;&nbsp;
+  <code>Counterfactual Reasoning</code>&nbsp;&nbsp;
+  <code>Healthcare AI</code>&nbsp;&nbsp;
+  <code>Oncology</code>
+</p>
+
+<br>
+
+<p align="center">
+  <b>Researcher × Builder</b><br>
+  <sub>Building systems that reason about interventions, counterfactuals, and decisions.</sub>
 </p>
