@@ -1,56 +1,58 @@
 <svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="330" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B0E13"/>
-      <stop offset="1" stop-color="#0E121A"/>
+      <stop stop-color="#0A0D12"/>
+      <stop offset="1" stop-color="#0E1219"/>
     </linearGradient>
-    <linearGradient id="flow" x1="118" y1="0" x2="1082" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#62DDF8"/>
-      <stop offset="0.52" stop-color="#79B7FF"/>
-      <stop offset="1" stop-color="#9987FF"/>
+    <linearGradient id="flow" x1="105" y1="0" x2="1095" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68DBF5"/>
+      <stop offset="0.5" stop-color="#79B5F8"/>
+      <stop offset="1" stop-color="#8D83F7"/>
     </linearGradient>
   </defs>
 
   <rect width="1200" height="330" rx="28" fill="url(#bg)"/>
   <rect x="1" y="1" width="1198" height="328" rx="27" stroke="#FFFFFF" stroke-opacity="0.07"/>
 
-  <text x="58" y="55" fill="#788491" font-size="13" font-family="JetBrains Mono,Consolas,monospace" font-weight="600" letter-spacing="3">RESEARCH OPERATING SYSTEM</text>
-  <text x="58" y="84" fill="#C8D0D8" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif">A rigorous path from evidence to action.</text>
+  <text x="58" y="54" fill="#74808C" font-size="13" font-family="JetBrains Mono,Consolas,monospace" font-weight="600" letter-spacing="3">RESEARCH FRAMEWORK</text>
+  <text x="58" y="84" fill="#CAD2D9" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif">From real-world data to clinically useful evidence.</text>
 
-  <path d="M104 135H1096" stroke="url(#flow)" stroke-width="2" stroke-opacity="0.45"/>
+  <path d="M104 131H1096" stroke="url(#flow)" stroke-width="2" stroke-opacity="0.22"/>
+  <path d="M104 131H1096" stroke="url(#flow)" stroke-width="2.3" stroke-linecap="round" stroke-dasharray="120 872">
+    <animate attributeName="stroke-dashoffset" values="992;0" dur="8s" repeatCount="indefinite"/>
+  </path>
+  <circle r="5" fill="#86E8FF">
+    <animateMotion dur="8s" repeatCount="indefinite" path="M104 131H1096"/>
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
 
   <g font-family="Inter,Segoe UI,Arial,sans-serif">
-    <rect x="58" y="112" width="248" height="164" rx="20" fill="#FFFFFF" fill-opacity="0.025" stroke="#FFFFFF" stroke-opacity="0.075"/>
-    <text x="82" y="144" fill="#6DDBF4" font-size="12" font-family="JetBrains Mono,Consolas,monospace" letter-spacing="2">01 / IDENTIFY</text>
-    <text x="82" y="181" fill="#F1F4F7" font-size="22" font-weight="650">Causal structure</text>
-    <text x="82" y="211" fill="#84919E" font-size="14">Target trial emulation</text>
-    <text x="82" y="234" fill="#84919E" font-size="14">g-methods · assumptions</text>
-    <text x="82" y="257" fill="#5E6975" font-size="12" font-family="JetBrains Mono,Consolas,monospace">WHAT CAN BE IDENTIFIED?</text>
+    <rect x="58" y="108" width="248" height="168" rx="20" fill="#FFFFFF" fill-opacity="0.024" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <text x="82" y="142" fill="#69D9F3" font-size="12" font-family="JetBrains Mono,Consolas,monospace" letter-spacing="2">01 / OBSERVE</text>
+    <text x="82" y="180" fill="#F0F3F6" font-size="22" font-weight="650">Clinical data</text>
+    <text x="82" y="211" fill="#84909B" font-size="14">EHR · longitudinal cohorts</text>
+    <text x="82" y="234" fill="#84909B" font-size="14">real-world treatment patterns</text>
+    <text x="82" y="258" fill="#59646E" font-size="12" font-family="JetBrains Mono,Consolas,monospace">WHAT HAPPENED?</text>
 
-    <rect x="337" y="112" width="248" height="164" rx="20" fill="#FFFFFF" fill-opacity="0.025" stroke="#FFFFFF" stroke-opacity="0.075"/>
-    <text x="361" y="144" fill="#74C7FB" font-size="12" font-family="JetBrains Mono,Consolas,monospace" letter-spacing="2">02 / ESTIMATE</text>
-    <text x="361" y="181" fill="#F1F4F7" font-size="22" font-weight="650">Treatment effects</text>
-    <text x="361" y="211" fill="#84919E" font-size="14">IPTW · IPCW · survival</text>
-    <text x="361" y="234" fill="#84919E" font-size="14">time-varying strategies</text>
-    <text x="361" y="257" fill="#5E6975" font-size="12" font-family="JetBrains Mono,Consolas,monospace">WHAT WOULD HAPPEN?</text>
+    <rect x="337" y="108" width="248" height="168" rx="20" fill="#FFFFFF" fill-opacity="0.024" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <text x="361" y="142" fill="#73C4F8" font-size="12" font-family="JetBrains Mono,Consolas,monospace" letter-spacing="2">02 / ESTIMATE</text>
+    <text x="361" y="180" fill="#F0F3F6" font-size="22" font-weight="650">Causal effects</text>
+    <text x="361" y="211" fill="#84909B" font-size="14">target trial emulation</text>
+    <text x="361" y="234" fill="#84909B" font-size="14">IPTW · IPCW · g-methods</text>
+    <text x="361" y="258" fill="#59646E" font-size="12" font-family="JetBrains Mono,Consolas,monospace">WHAT WOULD HAPPEN?</text>
 
-    <rect x="616" y="112" width="248" height="164" rx="20" fill="#FFFFFF" fill-opacity="0.025" stroke="#FFFFFF" stroke-opacity="0.075"/>
-    <text x="640" y="144" fill="#839FFF" font-size="12" font-family="JetBrains Mono,Consolas,monospace" letter-spacing="2">03 / SIMULATE</text>
-    <text x="640" y="181" fill="#F1F4F7" font-size="22" font-weight="650">Counterfactual worlds</text>
-    <text x="640" y="211" fill="#84919E" font-size="14">World models · agents</text>
-    <text x="640" y="234" fill="#84919E" font-size="14">patient trajectories</text>
-    <text x="640" y="257" fill="#5E6975" font-size="12" font-family="JetBrains Mono,Consolas,monospace">WHAT COULD UNFOLD?</text>
+    <rect x="616" y="108" width="248" height="168" rx="20" fill="#FFFFFF" fill-opacity="0.024" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <text x="640" y="142" fill="#7E9EF9" font-size="12" font-family="JetBrains Mono,Consolas,monospace" letter-spacing="2">03 / TRANSLATE</text>
+    <text x="640" y="180" fill="#F0F3F6" font-size="22" font-weight="650">Across settings</text>
+    <text x="640" y="211" fill="#84909B" font-size="14">transportability</text>
+    <text x="640" y="234" fill="#84909B" font-size="14">resource constraints</text>
+    <text x="640" y="258" fill="#59646E" font-size="12" font-family="JetBrains Mono,Consolas,monospace">FOR WHOM, WHERE?</text>
 
-    <rect x="895" y="112" width="248" height="164" rx="20" fill="#FFFFFF" fill-opacity="0.025" stroke="#FFFFFF" stroke-opacity="0.075"/>
-    <text x="919" y="144" fill="#9A86FF" font-size="12" font-family="JetBrains Mono,Consolas,monospace" letter-spacing="2">04 / DECIDE</text>
-    <text x="919" y="181" fill="#F1F4F7" font-size="22" font-weight="650">Clinical action</text>
-    <text x="919" y="211" fill="#84919E" font-size="14">Decision support</text>
-    <text x="919" y="234" fill="#84919E" font-size="14">resource constraints</text>
-    <text x="919" y="257" fill="#5E6975" font-size="12" font-family="JetBrains Mono,Consolas,monospace">WHAT SHOULD WE DO?</text>
+    <rect x="895" y="108" width="248" height="168" rx="20" fill="#FFFFFF" fill-opacity="0.024" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <text x="919" y="142" fill="#9185F7" font-size="12" font-family="JetBrains Mono,Consolas,monospace" letter-spacing="2">04 / DECIDE</text>
+    <text x="919" y="180" fill="#F0F3F6" font-size="22" font-weight="650">Treatment choice</text>
+    <text x="919" y="211" fill="#84909B" font-size="14">comparative strategies</text>
+    <text x="919" y="234" fill="#84909B" font-size="14">decision support</text>
+    <text x="919" y="258" fill="#59646E" font-size="12" font-family="JetBrains Mono,Consolas,monospace">WHAT SHOULD WE DO?</text>
   </g>
-
-  <circle cx="182" cy="135" r="4" fill="#62DDF8"/>
-  <circle cx="461" cy="135" r="4" fill="#74C7FB"/>
-  <circle cx="740" cy="135" r="4" fill="#839FFF"/>
-  <circle cx="1019" cy="135" r="4" fill="#9A86FF"/>
 </svg>
